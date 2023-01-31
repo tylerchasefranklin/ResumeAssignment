@@ -1,27 +1,26 @@
-* {
-    padding: .75%;
-    margin: 0 auto;
-}
-
 body {
     background-color: #C2F970;
     font-size: 1.1em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 2%;
+header {
+    background-color: #564D80;
+    color: #D3FCD5;
 }
 
 h2 {
-    background-color: #564D80;
-    color: #D3FCD5;
+    color: #C2F970;
     text-align: center;
+    margin: 0;
+    padding-top: 1%;
 }
 
-section {
-    background-color: #98A6D4;
+p {
+   margin: 0; 
 }
 
 footer {
@@ -32,12 +31,12 @@ footer {
 ul {
     list-style: none;
     line-height: 2;
-    
+    margin: 0;
 }
 
 li {
     display: inline-block;
-    width: 15%;
+    width: 25%;
 }
 
 a:link {
@@ -56,7 +55,47 @@ a {
     text-decoration: none;
 }
 
+.header-title {
+    font-size: 3em;
+    text-align: center;
+    background-color: #C2F970;
+    margin: 0;
+    padding: 2% 0;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    text-shadow: -2px 2px 0 #564D80,
+    -3px 3px 0 rgba(255,255,255,0.5);
+  }
+
+.light {
+    background-color: #98A6D4;
+}
+
+img {
+    margin-top: 2%;
+    width: 250px;
+}
+
+.dark {
+    background-color: #564D80;
+    color: #D3FCD5;
+}
+
+.float {
+    float: right;
+}
+
 .portfolio {
     text-align: center;
     font-size: 1.25em;
+    padding-bottom: 1%;
+    margin: 0;
 }
+
+.text-wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 1% 0;
+}
+
